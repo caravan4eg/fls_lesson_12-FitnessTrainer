@@ -1,0 +1,33 @@
+@import "null.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* организация header, main, footer на странице */
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	/* min-height: 100%; */
+	height: 100vh;
+}
+
+.main {
+	flex: 1 1 auto;
+	/* чтобы main увеличивался и прижал footer книзу  */
+}
+
+[class*="__container"] {
+	max-width: 1440px;
+	margin: 0 auto;
+	/* отступы безопасности */
+	padding: 0 15px;
+}

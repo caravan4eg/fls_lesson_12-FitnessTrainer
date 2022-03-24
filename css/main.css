@@ -1,0 +1,100 @@
+main {
+	/* display: none; */
+}
+
+.main {}
+
+.main__container {
+	max-width: 1140px;
+}
+
+.main__our-partners {
+	display: flex;
+	margin: 0px 0px 140px 0px;
+}
+.our-partners__text-block {
+	padding: 65px 0px 0px 0px;
+	max-width: 491px;
+}
+
+.our-partners {
+	font-weight: 400;
+	color: #313131;
+
+}
+
+.our-partners__title {
+	font-size: 65px;
+	line-height: 82px;
+	margin: 0px 0px 30px 0px;
+}
+
+.our-partners__text {
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.our-partners__images {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 662px;
+}
+
+.our-partners__image {
+	width: 261px;
+	height: 108px;
+	margin: 0px 40px 40px 0px;
+
+}
+
+.main__about-us {}
+
+.about-us {}
+
+.about-us__about-us-block {}
+
+.about-us__title {}
+
+.about-us__text {}
+
+.about-us__image {}
+
+.about-us__what-we-do-block {}
+
+.main__how-it-works {}
+
+.how-it-works {}
+
+.how-it-works__main-info {}
+
+.how-it-works__title {}
+
+.how-it-works__text {}
+
+.how-it-works__buttons {}
+
+.how-it-works__create-button {}
+
+.how-it-works__help-button {}
+
+.how-it-works__cards {}
+
+.cards {}
+
+.cards__card {}
+
+.card {}
+
+.card_closed {}
+
+.card__title {}
+
+.card_opened {}
+
+.card__text {}
+
+.main__blog-media {}
+
+.main__faq {}
+
+.main__customers-say {}
